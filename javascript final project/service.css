@@ -1,0 +1,115 @@
+.service1 {
+    color: #270505;
+      text-decoration: underline;
+      text-align: center;
+      font-size: 15px;
+    }
+
+  .landing-container p{
+      color: white;
+      font-size: 22px;
+      margin-top: 5PX;
+      font-family: roboto;
+      margin-right: 10px;
+  }
+  .section-title{
+      color: black;
+      text-align: center;
+      
+  }
+  
+  .services-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+  }
+  .section-title {
+      text-align: center;
+      color: #343a40;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+  .service {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #dee2e6; /* Add border around each service */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service img {
+    height: 150px;
+    border-radius: 20pxx;
+    margin-bottom: 15px;
+  }
+  
+  .service-content {
+    color: #343a40;
+  }
+  
+  .service-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-content p {
+    color: #6c757d;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  /* footer part */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+    line-height: 1.2;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #fff;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #2d2e33;
+    padding: 60px 10%;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+}
+.footer-col h4{
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 22px;
+    color: rgb(71, 212, 5);
+    text-transform: capitalize;   
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #27c0ac;
+    height: 2px;
+    width: 40px;
+}
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+ul li a{
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.4s;
+}
